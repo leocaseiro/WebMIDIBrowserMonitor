@@ -14,7 +14,7 @@
     function printReceivedMessage(portName, data) {
         var str = "port:" + portName + " ";
         for (var i = 0; i < data.length; i++) {
-            str += data[i].toString(16) + " ";
+            str += data[i] + " ";
         }
 
         printString(str);
